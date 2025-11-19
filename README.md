@@ -38,3 +38,14 @@ O sistema envia dados para o ThingSpeak com 4 campos:
 - 🏆 Score de Saúde Ambiental (0-100)
 
 <img src="./img/thingspeak.jpg" height="350" alt="gráficos thingspeak">
+
+## 🎯 Como Funciona
+1. **Coleta de Dados**: Sensores monitoram ambiente a cada 2.5s
+2. **Processamento**: Calcula score baseado em condições ideais
+3. **Tomada de Decisão**: Emite alertas e recomendações
+4. **Dashboard**: Envia médias a cada 15s para ThingSpeak
+5. **Pausas Programadas**: Alertas sonoros e visuais conforme horário virtual
+
+## 📈 Exemplo de Saída
+
+
