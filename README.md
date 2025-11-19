@@ -18,3 +18,5 @@ Sistema IoT com ESP32 para monitoramento inteligente do ambiente de trabalho, pr
 - **Comunicação**: HTTP/REST API
 - **Cloud**: ThingSpeak (Dashboard e gráficos)
 - **Plataforma**: Wokwi Simulator
+
+<img src="./img/wokwi.jpg" alt="Authentication_firebase">
