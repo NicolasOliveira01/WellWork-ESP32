@@ -1,10 +1,8 @@
 # 🏢 WellWork - Sistema Inteligente de Monitoramento Ambiental
 
-## 📖 Sobre o Projeto
+## Identificação do problema:
 
-### Identificação do problema:
-
-#### 🎯 Desafio no Futuro do Trabalho:
+### 🎯 Desafio no Futuro do Trabalho:
 
 Com a ascensão do trabalho remoto e híbrido, profissionais enfrentam novos desafios ambientais que impactam diretamente sua produtividade, saúde e bem-estar:
 
@@ -16,11 +14,11 @@ Com a ascensão do trabalho remoto e híbrido, profissionais enfrentam novos des
 
 ### Solução Proposta:
 
-#### 🚀 WellWork - Monitoramento Ambiental Inteligente:
+### 🚀 WellWork - Monitoramento Ambiental Inteligente:
 
 Sistema IoT integrado que transforma qualquer espaço de trabalho em um ambiente saudável, produtivo e inteligente através de monitoramento em tempo real e intervenções proativas.
 
-#### 🚀 Funcionalidades
+### 🚀 Funcionalidades
 - ✅ **Monitoramento Ambiental**: Temperatura, umidade e luminosidade
 - ✅ **Sistema de Scoring**: Avaliação da saúde ambiental (0-100 pontos)
 - ✅ **Pausas Inteligentes**: Alertas para café, almoço e alongamentos
@@ -28,7 +26,7 @@ Sistema IoT integrado que transforma qualquer espaço de trabalho em um ambiente
 - ✅ **Dashboard em Tempo Real**: Integração com ThingSpeak
 - ✅ **Tomada de Decisão**: Recomendações automatizadas baseadas em dados
 
-#### 🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
 - **Microcontrolador**: ESP32
 - **Sensores**: DHT22 (Temperatura/Umidade), LDR (Luminosidade)
 - **Atuadores**: LEDs, Buzzer
@@ -38,7 +36,7 @@ Sistema IoT integrado que transforma qualquer espaço de trabalho em um ambiente
 
 <img src="./img/wokwi.jpg" height="350" alt="sistema no wokwi">
 
-#### 📦 Hardware
+### 📦 Hardware
 | Componente | Função |
 |------------|--------|
 | ESP32 | Processamento principal |
@@ -47,7 +45,7 @@ Sistema IoT integrado que transforma qualquer espaço de trabalho em um ambiente
 | LEDs | Alertas visuais (vermelho, azul, amarelo, verde) |
 | Buzzer | Alertas sonoros para pausas |
 
-#### 📊 Dashboard ThingSpeak
+### 📊 Dashboard ThingSpeak
 O sistema envia dados para o ThingSpeak com 4 campos:
 - 🌡️ Temperatura (°C)
 - 💧 Umidade (%)
@@ -56,7 +54,7 @@ O sistema envia dados para o ThingSpeak com 4 campos:
 
 <img src="./img/thingspeak.jpg" height="350" alt="gráficos thingspeak">
 
-#### 🧠 Lógica do Sistema Inteligente
+### 🧠 Lógica do Sistema Inteligente
 
 ```bash
 int calcularScoreSaudeAmbiental() {
@@ -72,32 +70,32 @@ int calcularScoreSaudeAmbiental() {
 }
 ```
 
-#### 🎯 Como Funciona
+### 🎯 Como Funciona
 1. **Coleta de Dados**: Sensores monitoram ambiente a cada 2.5s
 2. **Processamento**: Calcula score baseado em condições ideais
 3. **Tomada de Decisão**: Emite alertas e recomendações
 4. **Dashboard**: Envia médias a cada 15s para ThingSpeak
 5. **Pausas Programadas**: Alertas sonoros e visuais conforme horário virtual
 
-#### 📈 Exemplo de Saída
+### 📈 Exemplo de Saída
 
 <img src="./img/fazendo_conexao.jpg" height="450" alt="gráficos thingspeak">
 
 <img src="./img/enviando_dados.jpg" height="500" alt="gráficos thingspeak">
 
-### Impacto e Relevância:
+## Impacto e Relevância:
 
-#### 🔮 Relevância para o Futuro do Trabalho
+### 🔮 Relevância para o Futuro do Trabalho
  - 🏠 Padroniza qualidade ambiental em home offices
  - 🌍 Democratiza acesso a ambientes de trabalho saudáveis
  - 📊 Dados concretos para políticas de trabalho remoto
 
-#### Educação Digital:
+### Educação Digital:
  - 🎓 Ensina princípios de ergonomia digital
  - 📚 Promove consciência ambiental no trabalho
  - 🔬 Base científica para hábitos saudáveis
 
-Sustentabilidade:
+### Sustentabilidade:
  - ⚡ Otimização energética através de monitoramento
  - 🌿 Redução do desperdício com controle ambiental
  - 📉 Diminuição da pegada de carbono
