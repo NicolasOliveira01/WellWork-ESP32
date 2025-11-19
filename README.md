@@ -84,3 +84,20 @@ int calcularScoreSaudeAmbiental() {
 <img src="./img/fazendo_conexao.jpg" height="450" alt="gráficos thingspeak">
 
 <img src="./img/enviando_dados.jpg" height="500" alt="gráficos thingspeak">
+
+### Impacto e Relevância:
+
+#### 🔮 Relevância para o Futuro do Trabalho
+ - 🏠 Padroniza qualidade ambiental em home offices
+ - 🌍 Democratiza acesso a ambientes de trabalho saudáveis
+ - 📊 Dados concretos para políticas de trabalho remoto
+
+#### Educação Digital:
+ - 🎓 Ensina princípios de ergonomia digital
+ - 📚 Promove consciência ambiental no trabalho
+ - 🔬 Base científica para hábitos saudáveis
+
+Sustentabilidade:
+ - ⚡ Otimização energética através de monitoramento
+ - 🌿 Redução do desperdício com controle ambiental
+ - 📉 Diminuição da pegada de carbono
