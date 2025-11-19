@@ -70,6 +70,56 @@ int calcularScoreSaudeAmbiental() {
 }
 ```
 
+### 🌐 Comunicação HTTP
+
+#### 📡 Endpoints HTTP Utilizados
+
+```bash
+// Endpoint Principal
+POST http://api.thingspeak.com/update
+
+// Parâmetros da Requisição
+?api_key=8SMHZFKBKRSXQRAF
+&field1=25.7          // Temperatura (°C)
+&field2=47.0          // Umidade (%)
+&field3=2150          // Luminosidade
+&field4=85            // Score Saúde Ambiental
+
+// Exemplo de URL Completa
+http://api.thingspeak.com/update?api_key=8SMHZFKBKRSXQRAF&field1=25.7&field2=47.0&field3=2150&field4=85
+```
+
+#### Código de Implementação
+
+```bash
+void enviarParaThingSpeak(float temperatura, float umidade, int luminosidade, int score) {
+  HTTPClient http;
+  String url = "http://api.thingspeak.com/update";
+  url += "?api_key=" + String(THINGSPEAK_API_KEY);
+  url += "&field1=" + String(temperatura, 1);
+  url += "&field2=" + String(umidade, 1);
+  url += "&field3=" + String(luminosidade);
+  url += "&field4=" + String(score);
+  
+  http.begin(url);
+  int httpCode = http.GET();
+  
+  if (httpCode == HTTP_CODE_OK) {
+    String resposta = http.getString();
+    Serial.println("✅ Dados enviados! Entry: " + resposta);
+  }
+  http.end();
+}
+```
+
+#### Fluxo de comunicação
+
+```bash
+ESP32 → WiFi → HTTP POST → ThingSpeak API → Dashboard
+    ↓
+Sensores (DHT22, LDR) → Processamento → Envio HTTP
+```
+
 ### 🎯 Como Funciona
 1. **Coleta de Dados**: Sensores monitoram ambiente a cada 2.5s
 2. **Processamento**: Calcula score baseado em condições ideais
