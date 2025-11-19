@@ -48,6 +48,6 @@ O sistema envia dados para o ThingSpeak com 4 campos:
 
 ## 📈 Exemplo de Saída
 
-<img src="./img/fazendo_conexao.jpg" height="350" alt="gráficos thingspeak">
+<img src="./img/fazendo_conexao.jpg" height="450" alt="gráficos thingspeak">
 
-<img src="./img/enviando_dados.jpg" height="350" alt="gráficos thingspeak">
+<img src="./img/enviando_dados.jpg" height="500" alt="gráficos thingspeak">
