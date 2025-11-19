@@ -20,3 +20,21 @@ Sistema IoT com ESP32 para monitoramento inteligente do ambiente de trabalho, pr
 - **Plataforma**: Wokwi Simulator
 
 <img src="./img/wokwi.jpg" height="350" alt="Authentication_firebase">
+
+## 📦 Hardware
+| Componente | Função |
+|------------|--------|
+| ESP32 | Processamento principal |
+| DHT22 | Sensor de temperatura e umidade |
+| LDR | Sensor de luminosidade |
+| LEDs | Alertas visuais (vermelho, azul, amarelo, verde) |
+| Buzzer | Alertas sonoros para pausas |
+
+## 📊 Dashboard ThingSpeak
+O sistema envia dados para o ThingSpeak com 4 campos:
+- 🌡️ Temperatura (°C)
+- 💧 Umidade (%)
+- 💡 Luminosidade (0-4095)
+- 🏆 Score de Saúde Ambiental (0-100)
+
+<img src="./img/thingspeak.jpg" height="350" alt="Authentication_firebase">
