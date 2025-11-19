@@ -1,7 +1,18 @@
 # 🏢 WellWork - Sistema Inteligente de Monitoramento Ambiental
 
 ## 📖 Sobre o Projeto
-Sistema IoT com ESP32 para monitoramento inteligente do ambiente de trabalho, promovendo produtividade, saúde ocupacional e bem-estar através de sensores e automação.
+
+### Identificação do problema
+
+#### 🎯 Desafio no Futuro do Trabalho
+
+Com a ascensão do trabalho remoto e híbrido, profissionais enfrentam novos desafios ambientais que impactam diretamente sua produtividade, saúde e bem-estar:
+
+ - ❌ Ambientes inadequados: Temperatura, umidade e iluminação fora dos padrões ideais
+ - ❌ Sedentarismo digital: Longas horas em frente às telas sem pausas adequadas
+ - ❌ Falta de ergonomia: Posturas inadequadas levando a LER/DORT
+ - ❌ Isolamento: Perda da rotina estruturada do ambiente corporativo
+ - ❌ Baixa produtividade: Ambiente inadequado reduz em até 30% a eficiência no trabalho
 
 ## 🚀 Funcionalidades
 - ✅ **Monitoramento Ambiental**: Temperatura, umidade e luminosidade
