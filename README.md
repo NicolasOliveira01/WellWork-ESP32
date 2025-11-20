@@ -1,8 +1,9 @@
 # 🏢 WellWork - Sistema Inteligente de Monitoramento Ambiental
 
-## Link do projeto no Wokwi:
+## Link do projeto:
 
 https://wokwi.com/projects/447791702511263745
+https://thingspeak.mathworks.com/channels/3170636
 
 ## Identificação do problema:
 
