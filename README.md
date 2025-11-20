@@ -1,6 +1,10 @@
 # 🏢 WellWork - Sistema Inteligente de Monitoramento Ambiental
 
-## Link do projeto:
+## Link do vídeo
+
+https://www.youtube.com/watch?v=YACebaHGS78
+
+## Links do projeto:
 
 https://wokwi.com/projects/447791702511263745
 
